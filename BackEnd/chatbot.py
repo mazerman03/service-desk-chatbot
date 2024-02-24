@@ -1,3 +1,7 @@
+# CHATBOT: Este código sirve para correr el chatbot en loop e intercambiar preguntas
+# y respuestas con el usuario. El modelo busca categorizar la entrada del usuario y
+# dar una respuesta acorde a ella.
+
 import random
 import json
 import pickle
@@ -37,24 +41,37 @@ def bag_of_words(sentence):
 def predict_class(sentence):
     bow = bag_of_words(sentence)
     res = model.predict(np.array([bow]))[0]
-    max_index = np.where(res ==np.max(res))[0][0]
+    max_index = np.where(res == np.max(res))[0][0]
     category = classes[max_index]
     return category
 
-#Obtenemos una respuesta aleatoria
+#cObtenemos una respuesta aleatoria
 def get_response(tag, intents_json):
     list_of_intents = intents_json['intents']
     result = ""
     for i in list_of_intents:
-        if i["tag"]==tag:
+        if i["tag"] == tag:
             result = random.choice(i['responses'])
             break
     return result
 
+# Validamos que no existan datos sensibles en el mensaje del usuario
+def isValid(msg):
+    wrds = msg.split()
+    for n in range(len(wrds)):
+        if len(wrds[n]) > 10:
+            global response
+            response = "Datos inváidos, por favor intenta de nuevo"
+            return False
+    return True
+
 # Ejecutamos el chat en bucle
+# message: la entrada del usuario
+# response: la respuesta del bot
 while True:
-    message=input("")
-    ints = predict_class(message)
-    res = get_response(ints, intents)
-    print(res)
+    message = input("")
+    if isValid(message):
+        ints = predict_class(message)
+        response = get_response(ints, intents)
+    print(response)
     
