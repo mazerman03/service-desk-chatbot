@@ -1,0 +1,19 @@
+{"intents":[
+    {
+        "tag": "saludo",
+        "patterns": ["hola", "qué tal", "cómo estás", "buenos días", "buenas tardes", "buenas noches"],
+        "responses": ["¡Hola! ¿Cómo puedo ayudarte?", "Es un gusto saludarte, ¿como puedo apoyarte?"]
+    },
+    {
+        "tag": "nombre",
+        "patterns": ["cómo es tu nombre", "cómo te llamas", "¿nombre?", "¿te llamas?", "¿cómo te dicen?"],
+        "responses": ["Soy el asistente virtual inteligente de Atrato, estoy aquí para ayudarte.", "Soy el nuevo asistente virtual de Atrato, ¿cómo puedo ayudarte?"]
+    },
+    {
+        "tag": "atratoPago",
+        "patterns": ["¿Qué es Atrato?", "¿Qué es Atrato Pago?", "Atrato Pago", "¿Cómo funciona AtratoPago?", "¿Cómo se utiliza Atrato Pago?", "¿Cómo funciona este servicio?", "¿Cómo funciona?"],
+        "responses": ["Atrato Pago es un método de pago que te permite realizar compras en comercios afiliados, ya sea de manera online o física, y pagarlas hasta en 24 meses."]
+    }
+]
+
+}
