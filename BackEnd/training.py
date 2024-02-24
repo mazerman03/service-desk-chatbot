@@ -1,3 +1,7 @@
+# TRAINING: Este código sirve solo para entrenar el modelo en base al archivo JSON 
+# y generar los arhivos .keras y .pkl del modelo que se utilizarán después.
+
+# Importar librerías
 import random
 import json
 import pickle
@@ -11,10 +15,13 @@ from keras.models import Sequential
 from keras.layers import Dense, Activation, Dropout
 from keras.optimizers import SGD as sgd_experimental
 
+# Crear el lemmatizer
 lemmatizer = WordNetLemmatizer()
 
+# Leer el archivo json
 intents = json.loads(open('intents.json').read())
 
+# Estos archivos son para evitar que salgan errores
 nltk.download('punkt')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
@@ -22,7 +29,7 @@ nltk.download('omw-1.4')
 words = []
 classes = []
 documents = []
-ignore_letters = ['?', '!', '¿', '.', ',']
+ignore_letters = ['?', '!', '¿', '.', ','] # Caracteres a ignorar porque no afectan el mensaje
 
 # Clasifica los patrones y las categorías
 for intent in intents['intents']:
