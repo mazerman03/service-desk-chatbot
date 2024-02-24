@@ -1,9 +1,6 @@
 import * as React from "react";
 import { useState } from 'react';
 import "./App.css";
-import "@chatscope/chat-ui-kit-react";
-import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from "@chatscope/chat-ui-kit-react";
-
 
 
 function App() {
