@@ -1,7 +1,4 @@
-# ---------------
-#    LIBRERIAS
-# ---------------
-
+# Importar librerías
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -13,16 +10,12 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 from langchain.chains import ConversationalRetrievalChain
 
-# ---------------
-#     API KEY
-# ---------------
-
-os.environ["OPENAI_API_KEY"] = "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"
+# Configurar API Key
+os.environ["OPENAI_API_KEY"] = "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"
 
 # ---------------
 #     OPEN TXT
 # ---------------
-# Step 2: Save to .txt and reopen (helps prevent issues)
 
 with open('datatxt/compilation.txt', 'r', encoding='utf-8') as f:
     text = f.read()
@@ -43,23 +36,8 @@ text_splitter = RecursiveCharacterTextSplitter(
 
 chunks = text_splitter.create_documents([text])
  
-
 # Result is many LangChain 'Documents' around 500 tokens or less (Recursive splitter sometimes allows more tokens to retain context)
 type(chunks[0]) 
-
-# Quick data visualization to ensure chunking was successful
-
-""" # Create a list of token counts
-token_counts = [count_tokens(chunk.page_content) for chunk in chunks]
-
-# Create a DataFrame from the token counts
-df = pd.DataFrame({'Token Count': token_counts})
-
-# Create a histogram of the token count distribution
-df.hist(bins=40, )
-
-# Show the plot
-plt.show() """
 
 # Get embedding model
 embeddings = OpenAIEmbeddings()
@@ -96,56 +74,3 @@ while run:
         print(">> Gracias por consultar a BenIA, ¡nos vemos pronto!")
         run = False
         
-
-chat_history = []
-
-"""
-def on_submit(_):
-    query = input_box.value
-    input_box.value = ""
-    
-    if query.lower() == 'exit':
-        print("Gracias por usar BenIA, nos vemos pronto!")
-        return
-    
-    result = qa({"question": query, "chat_history": chat_history})
-    chat_history.append((query, result['answer']))
-    
-    display(widgets.HTML(f'<b>User:</b> {query}'))
-    display(widgets.HTML(f'<b><font color="blue">Chatbot:</font></b> {result["answer"]}'))
-
-print("Welcome to the Transformers chatbot! Type 'exit' to stop.")
-
-input_box = widgets.Text(placeholder='Please enter your question:')
-input_box.on_submit(on_submit)
-
-display(input_box) """
-
-
-# ----------------------------------
-#   POSSIBLE FLASK IMPLEMENTATION
-# ----------------------------------
-
-""" from flask import Flask, render_template, request
-
-app = Flask(__name__)
-
-# Your chatbot code here
-def generate_chat_response(user_input):
-    # Replace this with your chatbot logic to generate a response based on user_input
-    # Example:
-    chatbot_response = f"You asked: {user_input}. This is a sample response."
-    return chatbot_response
-
-@app.route('/')
-def index():
-    return render_template('index.html')
-
-@app.route('/chat', methods=['POST'])
-def chat():
-    user_input = request.form['user_input']
-    chatbot_response = generate_chat_response(user_input)
-    return render_template('index.html', user_input=user_input, chatbot_response=chatbot_response)
-
-if __name__ == '__main__':
-    app.run(debug=True) """
