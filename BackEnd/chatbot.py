@@ -56,18 +56,22 @@ def get_response(tag, intents_json):
     return result
 
 # Validamos que no existan datos sensibles en el mensaje del usuario
+# Por ahora utizamos un tereshol
 def isValid(msg):
     wrds = msg.split()
     for n in range(len(wrds)):
-        if len(wrds[n]) > 10:
+        if len(wrds[n]) > 15:
             global response
-            response = "Datos inváidos, por favor intenta de nuevo"
+            response = "Detectamos posible información personal en tu mensaje. Por favor recuerda no incluir en este chat tus cuentas o credenciales, si requieres ayuda específica con tu cuenta, puedes comunicarte con nuestros empleados."
             return False
     return True
 
 # Ejecutamos el chat en bucle
 # message: la entrada del usuario
 # response: la respuesta del bot
+response = "¡Bienvenido al asistente virtual de Atrato Pago! ¿Cómo puedo ayudarte?"
+print(response)
+
 while True:
     message = input("")
     if isValid(message):

@@ -15,6 +15,16 @@
         "responses": ["Atrato Pago es un método de pago que te permite realizar compras en comercios afiliados, ya sea de manera online o física, y pagarlas hasta en 24 meses.", "Atrato Pago te facilita pagar tus compras en cuotas, sin tarjeta de crédito. ¿Te interesa saber cómo empezar?", "Con Atrato Pago, eliges cómo financiar tus compras en comercios afiliados. ¿Quieres detalles sobre los pasos a seguir?", "Atrato Pago es tu solución para pagar a plazos en más de 1,000 comercios. ¿Necesitas ayuda con el proceso?", "Es simple: con Atrato Pago compras hoy y pagas con flexibilidad. ¿Hay algo específico que necesitas?", "Atrato Pago es ideal para financiar tus compras sin complicaciones. ¿Te gustaría conocer más beneficios?", "Usar Atrato Pago es sencillo y rápido. Puedo guiarte en cómo hacer tu primera compra. ¿Te parece?", "Atrato Pago transforma la manera de pagar. Compra ahora, paga después, incluso sin crédito bancario. ¿Te explico más?", "Nuestro servicio Atrato Pago ofrece comprar en comercios afiliados y pagar poco a poco. ¿Deseas más información?", "Atrato Pago te da libertad y flexibilidad para manejar tus finanzas. ¿Quieres saber cómo aplicar?", "Con Atrato Pago, obtienes financiamiento instantáneo para tus compras. ¿Te gustaría aprender cómo funciona?"]
     },
     {
+        "tag": "hablarConHumano",
+        "patterns": ["Quiero hablar con una persona", 
+        "Quiero hablar con un empleado", 
+        "Quiero hablar con alguien más", 
+        "¿Puedes redirigirme con un empleado?", 
+        "¿Puedes darme detalles de mi crédito?",
+        "¿Puedes darme el saldo de mi cuenta?"],
+        "responses": ["Puedes comunicarte directamente con nuestros empleados a través de WhatsApp al número 523316024360."]
+    },
+    {
         "tag": "FAQsFinanciamiento",
         "patterns": [
           "¿Cuál es la tasa de interés de Atrato Pago?",
