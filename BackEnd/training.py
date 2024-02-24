@@ -19,7 +19,7 @@ from keras.optimizers import SGD as sgd_experimental
 lemmatizer = WordNetLemmatizer()
 
 # Leer el archivo json
-intents = json.loads(open('intents.json').read())
+intents = json.loads(open('intents.json', encoding="utf8").read())
 
 # Estos archivos son para evitar que salgan errores
 nltk.download('punkt')
