@@ -13,6 +13,16 @@
         "tag": "atratoPago",
         "patterns": ["¿Qué es Atrato?", "¿Qué es Atrato Pago?", "Atrato Pago", "¿Cómo funciona AtratoPago?", "¿Cómo se utiliza Atrato Pago?", "¿Cómo funciona este servicio?", "¿Cómo funciona?"],
         "responses": ["Atrato Pago es un método de pago que te permite realizar compras en comercios afiliados, ya sea de manera online o física, y pagarlas hasta en 24 meses."]
+    },
+    {
+        "tag": "comoLoUso",
+        "patterns": ["¿Cómo puedo utilizar Atrato Pago?", "¿Cómo puedo empezar con Atrato Pago?", "¿Cómo puedo empezar a trabajar con Atrato Pago?", "¿Cómo puedo pagar con Atrato Pago?"],
+        "responses": ["Si es una tienda en línea, debes dirigirte a la página de tu comercio elegido, haces tu compra y en método de pago seleccionas Atrato Pago. Esto te redireccionará a realizar tu solicitud, ya ligada a tu compra, llenas la solicitud, subes los documentos solicitados y ¡listo!, en algunos minutos recibirás respuesta en tu correo. Si es una tienda física, tendrás que dirigirte a nuestro panel, en donde seleccionarás el comercio y monto, llenas tu información, subes documentos y en unos minutos recibirás una respuesta por email."]
+    },
+    {
+        "tag": "default",
+        "patterns": [""],
+        "responses": ["deafaultResponse"]
     }
 ]
 
