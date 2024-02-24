@@ -1,4 +1,3 @@
-// App.tsx or App.jsx
 import React, { useState } from 'react';
 import { Card, CardBody } from "@nextui-org/react";
 import "./App.css";
@@ -7,11 +6,16 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <Card>
-      <CardBody>
-        <p>Make beautiful websites regardless of your design experience.</p>
-      </CardBody>
-    </Card>
+    <div className="app-container">
+
+      <div className="image-container">
+        <img
+          src="src/img/atrato.png"
+          alt="Descripción de la imagen"
+          className="rounded-image"
+        />
+      </div>
+    </div>
   );
 }
 
