@@ -12,7 +12,7 @@
     {
         "tag": "atratoPago",
         "patterns": ["¿Qué es Atrato?", "¿Qué es Atrato Pago?", "Atrato Pago", "¿Cómo funciona AtratoPago?", "¿Cómo se utiliza Atrato Pago?", "¿Cómo funciona este servicio?", "¿Cómo funciona?", "información sobre Atrato Pago", "qué servicios ofrece Atrato Pago", "qué es lo que hace Atrato Pago", "funcionamiento de Atrato Pago", "explicación de Atrato Pago", "características de Atrato Pago", "qué puedo hacer con Atrato Pago", "beneficios de usar Atrato Pago", "cómo me beneficia Atrato Pago", "qué ventajas tiene Atrato Pago", "cómo operar con Atrato Pago", "instrucciones para Atrato Pago", "guía de Atrato Pago", "dime más sobre Atrato Pago", "cómo se usa Atrato Pago", "proceso de Atrato Pago", "quiero entender AtratoPago", "ayuda con Atrato Pago", "cómo puedo comprar con Atrato Pago", "explica el servicio de Atrato Pago", "pasos para usar Atrato Pago", "descripción de Atrato Pago", "utilizar Atrato Pago", "quiero usar Atrato Pago", "cómo hago pagos con Atrato", "funciones de Atrato Pago", "pagar con Atrato Pago", "comprar ahora y pagar después", "financiamiento con Atrato", "crédito de Atrato Pago", "Atrato Pago beneficios", "Atrato Pago comercios afiliados", "Atrato Pago en línea", "cómo acceder a Atrato Pago", "método de pago Atrato", "Atrato Pago cuotas", "financiar compra con Atrato", "compras a plazos Atrato", "Atrato Pago sin tarjeta", "Atrato Pago sin banco", "Atrato, explica tu servicio", "Atrato Pago y ecommerce", "detalles del servicio Atrato Pago"],
-        "responses": ["Atrato Pago es un método de pago que te permite realizar compras en comercios afiliados, ya sea de manera online o física, y pagarlas hasta en 24 meses.", "Atrato Pago te facilita pagar tus compras en cuotas, sin tarjeta de crédito. ¿Te interesa saber cómo empezar?", "Con Atrato Pago, eliges cómo financiar tus compras en comercios afiliados. ¿Quieres detalles sobre los pasos a seguir?", "Atrato Pago es tu solución para pagar a plazos en más de 1,000 comercios. ¿Necesitas ayuda con el proceso?", "Es simple: con Atrato Pago compras hoy y pagas con flexibilidad. ¿Hay algo específico que necesitas?", "Atrato Pago es ideal para financiar tus compras sin complicaciones. ¿Te gustaría conocer más beneficios?", "Usar Atrato Pago es sencillo y rápido. Puedo guiarte en cómo hacer tu primera compra. ¿Te parece?", "Atrato Pago transforma la manera de pagar. Compra ahora, paga después, incluso sin crédito bancario. ¿Te explico más?", "Nuestro servicio Atrato Pago ofrece comprar en comercios afiliados y pagar poco a poco. ¿Deseas más información?", "Atrato Pago te da libertad y flexibilidad para manejar tus finanzas. ¿Quieres saber cómo aplicar?", "Con Atrato Pago, obtienes financiamiento instantáneo para tus compras. ¿Te gustaría aprender cómo funciona?"]
+        "responses": ["Atrato Pago es un método de pago que te permite realizar compras en comercios afiliados, ya sea de manera online o física, con montos que llegan hasta los 200,00 MXN, con oportunidad de pagarlas hasta en 24 meses.", "Atrato Pago te facilita pagar tus compras en cuotas, sin tarjeta de crédito. ¿Te interesa saber cómo empezar?", "Con Atrato Pago, eliges cómo financiar tus compras en comercios afiliados. ¿Quieres detalles sobre los pasos a seguir?", "Atrato Pago es tu solución para pagar a plazos en más de 1,000 comercios. ¿Necesitas ayuda con el proceso?", "Es simple: con Atrato Pago compras hoy y pagas con flexibilidad. ¿Hay algo específico que necesitas?", "Atrato Pago es ideal para financiar tus compras sin complicaciones. ¿Te gustaría conocer más beneficios?", "Usar Atrato Pago es sencillo y rápido. Puedo guiarte en cómo hacer tu primera compra. ¿Te parece?", "Atrato Pago transforma la manera de pagar. Compra ahora, paga después, incluso sin crédito bancario. ¿Te explico más?", "Nuestro servicio Atrato Pago ofrece comprar en comercios afiliados y pagar poco a poco. ¿Deseas más información?", "Atrato Pago te da libertad y flexibilidad para manejar tus finanzas. ¿Quieres saber cómo aplicar?", "Con Atrato Pago, obtienes financiamiento instantáneo para tus compras. ¿Te gustaría aprender cómo funciona?"]
     },
     {
         "tag": "FAQsFinanciamiento",
@@ -61,6 +61,46 @@
         ]
       },
       {
+        "tag": "AtratoCash",
+        "patterns": [
+          "¿Qué es AtratoCash?",
+          "Cómo puedo acceder a AtratoCash",
+          "Requisitos para AtratoCash",
+          "Quiero solicitar AtratoCash",
+          "Dudas sobre AtratoCash",
+          "¿Cómo funciona AtratoCash?",
+          "Obtener crédito con Atrato",
+          "Préstamos personales de Atrato",
+          "Condiciones para crédito AtratoCash",
+          "Límite de préstamo AtratoCash",
+          "Pago de préstamos AtratoCash",
+          "¿AtratoCash es inmediato?",
+          "Tasas de interés AtratoCash",
+          "¿Puedo pagar AtratoCash anticipadamente?",
+          "Renovación de crédito con AtratoCash",
+          "Monto máximo de AtratoCash",
+          "Simulador de crédito AtratoCash",
+          "¿AtratoCash revisa el Buró de Crédito?",
+          "Proceso de aprobación de AtratoCash",
+          "Plazos de pago en AtratoCash",
+          "¿AtratoCash para qué tipo de gastos?",
+          "¿Hay penalizaciones por atraso en AtratoCash?",
+          "¿Cómo veo mi saldo de AtratoCash?",
+          "Elegibilidad para AtratoCash",
+          "¿AtratoCash ofrece refinanciamiento?",
+          "Beneficios de AtratoCash",
+          "Crédito AtratoCash para emergencias",
+          "¿Cómo abono a mi crédito AtratoCash?",
+          "¿AtratoCash tiene promociones?",
+          "Ventajas de AtratoCash sobre tarjetas de crédito"
+        ],
+        "responses": [
+          "AtratoCash es un crédito personal que puedes solicitar después de haber pagado una parte de tu primer préstamo con nosotros. Es un proceso sencillo que te permite recibir hasta 200,000 MXN directamente en tu cuenta bancaria.",
+          "Para acceder a AtratoCash, solo necesitas ser un cliente de Atrato y seguir unos sencillos pasos en nuestra plataforma.",
+          "Si cumples con los pagos de tu préstamo actual, puedes solicitar AtratoCash con tan solo unos clics a través de nuestra app o sitio web."
+        ]
+      },      
+      {
         "tag": "ComerciosAfiliados",
         "patterns": [
           "¿Dónde puedo usar Atrato Pago?",
@@ -95,7 +135,7 @@
           "¿Atrato tiene alianzas con agencias de viajes?"
         ],
         "responses": [
-          "Puedes utilizar Atrato Pago en una amplia gama de comercios afiliados, desde tiendas en línea hasta establecimientos físicos, en categorías como electrónica, moda, muebles, y más.",
+          "Puedes utilizar Atrato Pago en una amplia gama de comercios afiliados, desde tiendas en línea hasta establecimientos físicos, en categorías como electrónica: Inmeza, CSL Plaza Tecnología, Contino, AO Store, Ignite Store, Ok Dock, Game Zone. Ciclismo: Giant, Liv, Scott, Specialized, Raudor, Momentum Bikes, Worqout, El Salón de la Bicicleta, Trek, People For Bikes, Veloci, Belfort Bikes, Sunpeed, Chelini Bikes, Chop Chop Bikes, Mercado Bici, Creek Cave, We R Bikes, Turbo Bicycles, Bike Store, Zona Bici, La Bici Urbana, Samao, Import Bike, Ready 4 Action, Eddys Bikes, The Bike Factory, Ciclometa, Bicivik, The Zone MX. Dental: Dentalia, Invisalign, Moons, Centauro, Dentalstar. Construcción: Santandreu, Ceramat, Abastecedora, Dihsa, Todo para tu casa. Hogar: Mathasa, Mueblería Standard, Sofamex, Mueblería Olivas, TuGow, Nu Espacios, Blue Room, Novo Muebles, Mueblería Brasil, Mueblerías Central, Foly Muebles, Ryse, Makora, Álamo Muebles, Maha Home. Música: Hermes Music Club, Faly Music, Greins Casa de Música, Guitar Gear, JD Luthier, Ani Music, Mr. CD, Drum Station, JP Musical. Sleep: Smart Bamboo, Atlas del Descanso, Colchonera San Luis, Don Colchón, Drim Sleep. Motocicletas: Mondo di moto, Bajaj, Atrum, Motometa, Moto Diez, TP motosports. Movilidad: Mandarina.bike, Andafacil. Otros: Arome México, Local Adventures, Mappa, Names, Owl Classic Cymbals, Kama Beauty, Grupo Alfa, Reyfri, El Lugar del Chef. Y más.",
           "Visita nuestro sitio web para ver la lista actualizada de comercios donde Atrato Pago es aceptado, incluyendo tiendas de electrónicos, ropa, supermercados, y restaurantes.",
           "Nuestro directorio de comercios afiliados está disponible en nuestra página web. Aquí encontrarás desde tiendas de deportes hasta servicios en línea que aceptan Atrato Pago."
         ]
