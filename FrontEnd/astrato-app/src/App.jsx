@@ -1,17 +1,17 @@
-import * as React from "react";
-import { useState } from 'react';
+// App.tsx or App.jsx
+import React, { useState } from 'react';
+import { Card, CardBody } from "@nextui-org/react";
 import "./App.css";
-
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <NextUIProvider>
-        <div className="App">
-
-       </div>
-  </NextUIProvider>
+    <Card>
+      <CardBody>
+        <p>Make beautiful websites regardless of your design experience.</p>
+      </CardBody>
+    </Card>
   );
 }
 
