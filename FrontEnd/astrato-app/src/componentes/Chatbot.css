@@ -1,3 +1,5 @@
+/* Chatbot.css */
+
 .Chatbot {
   position: fixed;
   bottom: 20px;
@@ -11,8 +13,8 @@
 }
 
 .chatbot-header {
-  background-color: #ded0f9;
-  color: black;
+  background-color: #c6e3fa;
+  color: white;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -31,13 +33,40 @@
   color: white;
 }
 
-.atrato-bot-message .cs-message {
-  background: #c6e3fa !important;
+.atrato-bot-message {
+  background-color: #c6e3fa;
+  color: white; 
+  border-radius: 10px; 
+  padding: 8px; 
+  margin-bottom: 8px; 
+}
+
+.custom-message {
+  background-color: #c6e3fa;
+  color: white;
+  border-radius: 10px;
+  padding: 8px; 
+  margin-bottom: 8px;
+}
+
+
+.user-message {
+  background-color: #c6e3fa;
+  color: white;
   border-radius: 10px;
   padding: 8px;
   margin-bottom: 8px;
 }
 
-.atrato-bot-message .cs-message__html-content {
-  color: white;
+.cs-message__content {
+  margin-bottom: 8px;
+}
+
+.user-message {
+  background-color: #ded0f9;
+  color: black;
+  border-radius: 10px;
+  padding: 8px;
+  align-self: flex-end;
+  margin-bottom: 8px;
 }
