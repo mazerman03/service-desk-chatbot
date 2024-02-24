@@ -60,4 +60,39 @@ function App() {
   );
 }
 
+//change variables to fit our app
+const sendDataToBackend = async (inputData) => {
+  try {
+      const response = await fetch('/api/process_data', {
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ inputData })
+      });
+      if (!response.ok) {
+          throw new Error('Network response was not ok');
+      }
+      const data = await response.json();
+      return data.processedData;
+  } catch (error) {
+      console.error('Error:', error);
+      return null;
+  }
+};
+
+const handleSubmit = async (event) => {
+  event.preventDefault();
+  const inputData = event.target.inputField.value;
+  const processedData = await sendDataToBackend(inputData);
+  if (processedData !== null) {
+      // Update UI with processed data
+      document.getElementById('outputField').textContent = processedData;
+  } else {
+      // Handle error
+      console.error('Failed to process data');
+  }
+};
+
+
 export default App;
